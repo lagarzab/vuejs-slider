@@ -3,8 +3,8 @@
     {{value}}
     <input
         type='range'
-        :min='1'
-        :max='100'
+        :min='min'
+        :max='max'
         :value='input'
         @change='emitInput'
         class='slider--component'
