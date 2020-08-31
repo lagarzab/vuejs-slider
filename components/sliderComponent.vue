@@ -69,6 +69,11 @@ export default {
                     '--slider-control-size:' + this.controlSize + ';' +
                     '--slider-control-color:'+ this.controlColor + ';'
         }
+    },
+    watch: {
+        value (v) {
+            this.input = v
+        }
     }
 }
 </script>
